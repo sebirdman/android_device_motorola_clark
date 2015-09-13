@@ -64,7 +64,6 @@ on early-boot
     write /sys/kernel/boot_adsp/boot 1
 
 on boot
-    rm /system/recovery-from-boot.p
     chown bluetooth bluetooth /sys/module/bluetooth_power/parameters/power
     chown bluetooth net_bt_stack /sys/class/rfkill/rfkill0/type
     chown bluetooth net_bt_stack /sys/class/rfkill/rfkill0/state
