@@ -29,7 +29,7 @@ MINIMAL_FONT_FOOTPRINT := true
 
 # Kernel
 TARGET_PREBUILT_KERNEL := device/motorola/clark/kernel
-TARGET_SPECIFIC_HEADER_PATH := device/moto/clark/include
+TARGET_SPECIFIC_HEADER_PATH := device/motorola/clark/include
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 earlyprintk=msm_hsl_uart,0xf991e000 utags.blkdev=/dev/block/bootdevice/by-name/utags utags.backup=/dev/block/bootdevice/by-name/utagsBackup androidboot.selinux=permisive --dt device/motorola/clark/dtb
 BOARD_KERNEL_BASE := 00000000
 BOARD_PAGE_SIZE := 4096
@@ -58,7 +58,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Recovery
 PRODUCT_COPY_FILES := device/motorola/clark/twrp.fstab:recovery/root/etc/twrp.fstab
 DEVICE_RESOLUTION := 1440x2560
-TW_BOARD_CUSTOM_GRAPHICS := ../../../device/moto/clark/recovery/graphics.c
+TW_BOARD_CUSTOM_GRAPHICS := ../../../device/motorola/clark/recovery/graphics.c
 TW_INCLUDE_L_CRYPTO := true
 TW_TARGET_USES_QCOM_BSP := true
 TW_NEW_ION_HEAP := true
