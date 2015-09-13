@@ -29,3 +29,4 @@ PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := clark
 PRODUCT_MANUFACTURER := Motorola
 
+$(call inherit-product, device/motorola/clark/device.mk)
