@@ -19,6 +19,8 @@
 #
 # Everything in this directory will become public
 
+$(call inherit-product, vendor/motorola/clark/victara-vendor.mk)
+
 LOCAL_KERNEL := device/motorola/clark/kernel
 
 PRODUCT_COPY_FILES := \
